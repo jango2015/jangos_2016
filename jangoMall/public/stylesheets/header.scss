@@ -1,0 +1,33 @@
+html{font-size: 100px;}
+body{margin: 0;padding: 0;}
+.navbar{
+    height: 1.1rem;
+    color:#fff;
+    background: #06c1be;
+}
+.navbar .nav-wrap-left{
+    height: 1.1rem;
+    line-height: 1.1rem;
+    }
+.nav-wrap-left .back{
+    height: 1.1rem;
+    width:.55rem;
+    line-height: 1rem;
+    padding: 0  .3rem;
+}   
+.navbar .icon-back{
+    width:.45rem;
+    height: .45rem;
+    position: relative;
+    vertical-align: middle;
+}
+.icon-back :after{
+     content: '';
+    display: inline-block;
+    position: relative;
+    top: -.2em;
+    width: .5em;
+    height: .5em;
+    border-bottom: .03rem solid #fff;
+    border-left: .03rem solid #fff;
+}
